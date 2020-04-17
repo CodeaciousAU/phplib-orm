@@ -1,0 +1,36 @@
+{
+    "name": "codeacious/orm",
+    "description": "Object-relational mapping support",
+    "license": "MIT",
+    "homepage": "https://github.com/CodeaciousAU/phplib-orm",
+    "authors": [
+        {
+            "name": "Glenn Schmidt",
+            "email": "glenn@codeacious.com",
+            "homepage": "https://codeacious.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "codeacious/model": "^1.0",
+        "doctrine/orm": "^2.0",
+        "ext-pdo": "*",
+        "php": "^7.2",
+        "symfony/console": "^5.0"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+        "laminas/laminas-crypt": "If you want to configure a data protection cipher"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeacious\\Orm\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
