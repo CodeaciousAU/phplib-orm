@@ -15,7 +15,7 @@
         "codeacious/model": "^1.0",
         "doctrine/orm": "^2.0",
         "ext-pdo": "*",
-        "php": "^7.2",
+        "php": ">=7.2",
         "symfony/console": "^5.0"
     },
     "require-dev": {
